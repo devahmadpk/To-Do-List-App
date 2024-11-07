@@ -1,0 +1,22 @@
+
+
+.banner-div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.banner-div h2 {
+    font-size: 34px;
+}
+
+.banner-div button {
+    background-color: #E2EBFA;
+    color: #1C6DFA;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
