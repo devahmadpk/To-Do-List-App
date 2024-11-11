@@ -9,6 +9,7 @@
 
 .banner-div h2 {
     font-size: 34px;
+    text-align: center;
 }
 
 .banner-div button {
@@ -20,3 +21,28 @@
     font-size: 18px;
 }
 
+@media only screen and (max-width: 800px) {
+    .banner-div h2 {
+        font-size: 28px;
+    }
+    
+    .banner-div button {
+        
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .banner-div h2 {
+        font-size: 24px;
+    }
+}
+
+@media only screen and (max-width: 470px) {
+    .banner-div {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
